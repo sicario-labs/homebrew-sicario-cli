@@ -1,7 +1,7 @@
 class Sicario < Formula
   desc "Next-generation SAST, SCA, and secret scanner"
   homepage "https://usesicario.xyz"
-  version "0.2.4"  # bumped automatically by CI
+  version "0.2.5"  # bumped automatically by CI
 
   on_macos do
     if Hardware::CPU.arm?
